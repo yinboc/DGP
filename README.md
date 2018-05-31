@@ -1,6 +1,6 @@
 # Attentive Dense Graph Propagation Module
 
-The code for the paper "Rethinking Knowledge Graph Propagation for Zero-Shot Learning" (https://arxiv.org/pdf/1805.11724.pdf).
+The code for the paper [Rethinking Knowledge Graph Propagation for Zero-Shot Learning](https://arxiv.org/abs/1805.11724).
 
 ### Citation
 ```
