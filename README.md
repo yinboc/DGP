@@ -76,6 +76,8 @@ Run `python train_resnet_fit.py` with the args:
 * `--train-dir`: the directory contains 1K imagenet training classes, each class with a folder named by its wordnet id
 * `--save-path`: the folder you want to save the result, e.g. `save/resnet-fit-xxx`
 
+(In the paper's setting, --train-dir is the folder composed of 1K classes from fall2011.tar, with the missing class "teddy bear" from ILSVRC2012.)
+
 ### Testing
 
 #### ImageNet
