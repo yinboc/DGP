@@ -1,4 +1,4 @@
-# Attentive Dense Graph Propagation Module
+# Dense Graph Propagation
 
 The code for the paper [Rethinking Knowledge Graph Propagation for Zero-Shot Learning](https://arxiv.org/abs/1805.11724).
 
@@ -61,13 +61,12 @@ Make a directory `save/` for saving models.
 
 In most programs, use `--gpu` to specify the devices to run the code (default: use gpu 0).
 
-#### Train GCN
-* GPM: Run `python train_gcn_basic.py`, get results in `save/gcn-basic`
-* DGPM: Run `python train_gcn_dense.py`, get results in `save/gcn-dense`
-* ADGPM: Run `python train_gcn_dense_att.py`, get results in `save/gcn-dense-att`
+#### Train Graph Networks
+* SGCN: Run `python train_gcn_basic.py`, get results in `save/gcn-basic`
+* DGP: Run `python train_gcn_dense_att.py`, get results in `save/gcn-dense-att`
 
 In the results folder:
-* `*.pth` is the state dict of GCN model
+* `*.pth` is the state dict of Graph Networks model
 * `*.pred` is the prediction file, which can be loaded by `torch.load()`. It is a python dict, having two keys: `wnids` - the wordnet ids of the predicted classes, `pred` - the predicted fc weights
 
 #### Finetune ResNet
