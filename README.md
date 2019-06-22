@@ -4,19 +4,12 @@ The code for the paper [Rethinking Knowledge Graph Propagation for Zero-Shot Lea
 
 ### Citation
 ```
-@ARTICLE{2018arXiv180511724K,
-   author = {{Kampffmeyer}, M. and {Chen}, Y. and {Liang}, X. and {Wang}, H. and 
-	{Zhang}, Y. and {Xing}, E.~P.},
-    title = "{Rethinking Knowledge Graph Propagation for Zero-Shot Learning}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1805.11724},
- primaryClass = "cs.CV",
- keywords = {Computer Science - Computer Vision and Pattern Recognition},
-     year = 2018,
-    month = may,
-   adsurl = {http://adsabs.harvard.edu/abs/2018arXiv180511724K},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@inproceedings{kampffmeyer2019rethinking,
+  title={Rethinking knowledge graph propagation for zero-shot learning},
+  author={Kampffmeyer, Michael and Chen, Yinbo and Liang, Xiaodan and Wang, Hao and Zhang, Yujia and Xing, Eric P},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={11487--11496},
+  year={2019}
 }
 ```
 
